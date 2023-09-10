@@ -1,4 +1,0 @@
-(= Q (linspace 1 4 4))
-(= O4 (ones 4 4))
-(= W (- (+ (* (transpose Q) (ones 1 4)) (* (ones 4 1) Q)) O4))
-(disp W)

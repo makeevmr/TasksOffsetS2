@@ -1,5 +1,0 @@
-(= n 5)
-(= A (* (ones n 1) (linspace 1 n n)))
-(= B (transpose A))
-(= Lemer (./ (min A B) (max A B)))
-(disp (inv Lemer))

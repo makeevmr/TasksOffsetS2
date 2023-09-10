@@ -1,7 +1,0 @@
-(= a 2)
-(disp a)
-(= b 3)
-(disp b)
-(= c (+ a b))
-(disp c)
-(disp (* a b))
